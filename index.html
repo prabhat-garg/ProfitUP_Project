@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="hi" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0F9D58" />
+    <meta name="description" content="ProfitUp tells Indian shop owners what to reorder, what is not selling, and where money is stuck — even without daily sales entries." />
+    <meta property="og:title" content="ProfitUp — Dukaan ka paisa kahan phasa hai?" />
+    <meta property="og:description" content="Know where your money is stuck. Know what to do next." />
+    <meta property="og:type" content="website" />
+    <title>ProfitUp — Dukaan ka paisa kahan phasa hai?</title>
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('pu_theme') || 'system';
+          var dark = saved === 'dark' || (saved === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+          document.documentElement.classList.toggle('dark', dark);
+          var lang = localStorage.getItem('pu_language') || 'hi';
+          document.documentElement.lang = lang === 'hi' ? 'hi' : 'en';
+          document.documentElement.dataset.lang = lang;
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

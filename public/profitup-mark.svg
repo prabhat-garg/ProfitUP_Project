@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="ProfitUp">
+  <rect width="512" height="512" rx="112" fill="#0F9D58"/>
+  <path d="M132 364V148h84c62 0 104 34 104 90 0 58-44 94-108 94h-24v32h-56Zm56-84h26c32 0 50-14 50-40 0-25-17-38-48-38h-28v78Z" fill="#FFFFFF"/>
+  <path d="M292 364l66-216h58l-66 216h-58Z" fill="#F6C445"/>
+  <circle cx="376" cy="120" r="26" fill="#FFFFFF" opacity=".9"/>
+</svg>
